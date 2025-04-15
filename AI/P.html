@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Online Sederhana</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <h1>TokoKu</h1>
+        <div class="cart">Keranjang (<span id="cart-count">0</span>)</div>
+    </nav>
+
+    <!-- Katalog Produk -->
+    <section class="products">
+        <h2>Produk Kami</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Produk 1">
+                <h3>Kaos Polos</h3>
+                <p>Rp 75.000</p>
+                <button onclick="addToCart()">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Produk 2">
+                <h3>Sepatu Sneakers</h3>
+                <p>Rp 250.000</p>
+                <button onclick="addToCart()">Tambah ke Keranjang</button>
+            </div>
+            <div class="product">
+                <img src="https://via.placeholder.com/150" alt="Produk 3">
+                <h3>Tas Ransel</h3>
+                <p>Rp 150.000</p>
+                <button onclick="addToCart()">Tambah ke Keranjang</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 TokoKu. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

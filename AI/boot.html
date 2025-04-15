@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Header Tiket.com</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #0a1f44;
+            color: white;
+        }
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 20px;
+            background: #0a1f44;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .dot {
+            color: yellow;
+        }
+        .search-bar input {
+            padding: 8px;
+            width: 250px;
+            border-radius: 20px;
+            border: none;
+        }
+        .menu {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        .currency {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        .btn {
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            border: none;
+        }
+        .btn-outline {
+            background: white;
+            color: black;
+        }
+        .btn-primary {
+            background: blue;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">tiket<span class="dot">.</span>com</div>
+        <div class="search-bar">
+            <input type="text" placeholder="Penerbangan ke Surabaya">
+        </div>
+        <div class="menu">
+            <a href="#">Jadi Partner tiket.com</a>
+            <a href="#">Blibli Tiket Rewards</a>
+            <a href="#">Your Orders</a>
+            <div class="currency">IDR <span class="flag"></span></div>
+            <button class="btn btn-outline">Masuk</button>
+            <button class="btn btn-primary">Daftar</button>
+        </div>
+    </header>
+</body>
+</html>

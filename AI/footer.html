@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traveloka Footer</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: white;
+        }
+        .footer {
+            background-color: #121212;
+            padding: 20px;
+        }
+        .footer-container {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .footer-section {
+            flex: 1;
+            margin: 10px;
+        }
+        .footer-section h2, .footer-section h3 {
+            color: #00A8E8;
+        }
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+        .footer-section ul li {
+            margin: 8px 0;
+        }
+        .footer-section ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        .partner-btn {
+            background-color: #00A8E8;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+        }
+        .payment-partners img {
+            width: 50px;
+            margin: 5px;
+        }
+        .social-media {
+            display: flex;
+            flex-direction: column;
+        }
+        .social-media li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <h2>traveloka</h2>
+                <button class="partner-btn">Jadi Partner Traveloka</button>
+                <div class="payment-partners">
+                    <img src="visa.png" alt="Visa">
+                    <img src="mastercard.png" alt="Mastercard">
+                    <img src="bca.png" alt="BCA">
+                    <img src="bni.png" alt="BNI">
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Tentang Traveloka</h3>
+                <ul>
+                    <li><a href="#">Cara Pesan</a></li>
+                    <li><a href="#">Hubungi Kami</a></li>
+                    <li><a href="#">Pusat Bantuan</a></li>
+                    <li><a href="#">Karier</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Produk</h3>
+                <ul>
+                    <li><a href="#">Hotel</a></li>
+                    <li><a href="#">Tiket Pesawat</a></li>
+                    <li><a href="#">Tiket Kereta Api</a></li>
+                    <li><a href="#">Tiket Bus & Travel</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow kami di</h3>
+                <ul class="social-media">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">TikTok</a></li>
+                    <li><a href="#">YouTube</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

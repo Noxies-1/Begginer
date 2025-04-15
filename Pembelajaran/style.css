@@ -1,0 +1,21 @@
+.yellow{
+    color:yellow;
+}
+.hello{
+    background-color: aqua;
+}
+ul> li:first-child a{
+    color: red;
+}
+ul> li:nth-child(even) a{
+    color: green;
+}
+ul> li:nth-child() a{
+    color: skyblue;
+}
+ul> li:last-child> a{
+    color: yellow;
+}
+p span:first-child:hover{
+    background-color: red;
+}

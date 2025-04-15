@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel & Destinasi</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+        }
+        h2 {
+            text-align: center;
+            margin-top: 30px;
+        }
+        .tabs {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+        .tab {
+            font-weight: bold;
+            cursor: pointer;
+        }
+        .tab.active {
+            color: blue;
+            border-bottom: 2px solid blue;
+        }
+        .hotel-list {
+            display: flex;
+            overflow-x: auto;
+            gap: 15px;
+            padding: 10px 0;
+        }
+        .hotel-card {
+            min-width: 250px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .hotel-card img {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+        .hotel-info {
+            padding: 10px;
+        }
+        .hotel-info h3 {
+            font-size: 16px;
+            margin: 5px 0;
+        }
+        .hotel-info p {
+            margin: 5px 0;
+            font-size: 14px;
+            color: gray;
+        }
+        .price {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Coba suasana yang beda, cek rumah liburan di Agoda!</h2>
+        <div class="tabs">
+            <div class="tab active">Jakarta</div>
+            <div class="tab">Bandung</div>
+            <div class="tab">Yogyakarta</div>
+            <div class="tab">Surabaya</div>
+            <div class="tab">Bali</div>
+        </div>
+        <div class="hotel-list">
+            <div class="hotel-card">
+                <img src="hotel1.jpg" alt="Hotel 1">
+                <div class="hotel-info">
+                    <h3>Bobopod Juanda, Jakarta</h3>
+                    <p>Pasar Baru, Jakarta</p>
+                    <p class="price">IDR 158,162</p>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="hotel2.jpg" alt="Hotel 2">
+                <div class="hotel-info">
+                    <h3>Bobopod Tanah Abang, Jakarta</h3>
+                    <p>Monas, Jakarta</p>
+                    <p class="price">IDR 129,862</p>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="hotel3.jpg" alt="Hotel 3">
+                <div class="hotel-info">
+                    <h3>Andara Home Setiabudi</h3>
+                    <p>Kuningan, Jakarta</p>
+                    <p class="price">IDR 281,395</p>
+                </div>
+            </div>
+        </div>
+        
+        <h2>Yuk, cek inspirasi liburan di Indonesia ini</h2>
+        <div class="hotel-list">
+            <div class="hotel-card">
+                <img src="jakarta.jpg" alt="Jakarta">
+                <div class="hotel-info">
+                    <h3>Jakarta</h3>
+                    <p>14,249 akomodasi</p>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="bandung.jpg" alt="Bandung">
+                <div class="hotel-info">
+                    <h3>Bandung</h3>
+                    <p>7,196 akomodasi</p>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="yogyakarta.jpg" alt="Yogyakarta">
+                <div class="hotel-info">
+                    <h3>Yogyakarta</h3>
+                    <p>5,503 akomodasi</p>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="surabaya.jpg" alt="Surabaya">
+                <div class="hotel-info">
+                    <h3>Surabaya</h3>
+                    <p>3,145 akomodasi</p>
+                </div>
+            </div>
+        </div>
+        
+        <h2>Destinasi populer di luar Indonesia</h2>
+        <div class="hotel-list">
+            <div class="hotel-card">
+                <img src="kualalumpur.jpg" alt="Kuala Lumpur">
+                <div class="hotel-info">
+                    <h3>Kuala Lumpur</h3>
+                    <p>19,902 akomodasi</p>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="tokyo.jpg" alt="Tokyo">
+                <div class="hotel-info">
+                    <h3>Tokyo</h3>
+                    <p>12,486 akomodasi</p>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="johor.jpg" alt="Johor Bahru">
+                <div class="hotel-info">
+                    <h3>Johor Bahru</h3>
+                    <p>6,994 akomodasi</p>
+                </div>
+            </div>
+            <div class="hotel-card">
+                <img src="penang.jpg" alt="Penang">
+                <div class="hotel-info">
+                    <h3>Penang</h3>
+                    <p>5,161 akomodasi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body

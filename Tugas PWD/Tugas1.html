@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TUGAS 1</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+    }
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        text-align: center;
+    }
+    th, td {
+        border: 1px solid black;
+        padding: 8px;
+    }
+    th {
+        background-color:mediumseagreen;
+        color: white;
+    }
+    .title {
+        background-color: cornflowerblue;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .red {
+        background-color: red;
+        color: black;
+        font-weight: bold;
+    }
+    .yellow {
+        background-color: yellow;
+        font-weight: bold;
+    }
+    .email-table {
+        width: 100%;
+        border-collapse: collapse;
+        background-color: white;
+    }
+    .email-table td {
+        border: 1px solid black;
+        padding: 5px;
+        text-align: center;
+        background-color: white;
+    }
+    .email-header td {
+        background-color: red;
+        color: white;
+        font-weight: bold;
+    }
+    .total{
+        background-color: white;
+        text-align: center;
+        font-weight: bold;
+    }
+    .nama-barang {
+            text-align: left;
+            padding-left: 8px;
+    }
+    .harga{
+        text-align: right;
+        padding-right: 8px;
+    }
+</style>
+<body>
+    <div class="title">ONLINE ORDER</div>
+<table>
+    <tr>
+        <th>NO</th>
+        <th>Nama Barang</th>
+        <th>QTY</th>
+        <th>Harga (Rp)</th>
+        <th>Email Account Note</th>
+    </tr>
+    <tr class="red">
+        <td>1</td>
+        <td class="nama-barang">DEAM 2 Gb</td>
+        <td>1</td>
+        <td class="harga">45.000</td>
+        <td rowspan="6" style="background-color: white;">
+            <table class="email-table">
+                <tr class="email-header">
+                    <td style="font-weight: 100;">Mail Box</td>
+                    <td style="font-weight: 100;">10 GB</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 100;">Webmail</td>
+                    <td style="font-weight: 100;">Yes</td>
+                </tr>
+                <tr>
+                    <td style="font-weight: 100;">POP 3</td>
+                    <td style="font-weight: 100;">No</td>
+                </tr>
+            </table>
+        </td>
+    </tr>
+    <tr class="yellow">
+        <td>2</td>
+        <td class="nama-barang">DEAM/COMBOY 4 GB</td>
+        <td>2</td>
+        <td class="harga">50.000</td>
+    </tr>
+    <tr class="red">
+        <td>3</td>
+        <td class="nama-barang">COMPBOY 8 GB</td>
+        <td>1</td>
+        <td class="harga">60.000</td>
+    </tr>
+    <tr class="yellow">
+        <td>4</td>
+        <td class="nama-barang">APACER 4GB / 8GB / 16GB</td>
+        <td>1</td>
+        <td class="harga">48.000</td>
+    </tr>
+    <tr class="red">
+        <td>5</td>
+        <td class="nama-barang">SEAGATE 250 GB SATA – RESMI</td>
+        <td>1</td>
+        <td class="harga">741.000</td>
+    </tr>
+        <td colspan="2" class="total">TOTAL BAYAR</td>
+        <td class="total">6</td>
+        <td class="total" style="text-align: right;">994.000</td>
+    </tr>
+    </table>
+</body>
+</html>
